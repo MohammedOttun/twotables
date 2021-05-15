@@ -1,0 +1,24 @@
+{
+  "name": "twotables",
+  "version": "1.0.0",
+  "description": "* When dealing with big databases, it is very likely that you will have to work with two or more datasets that are related, but which have some degree of separation between them. In this case we have a table of the top 5000 songs and a table of the top 3000 albums.",
+  "main": "music.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammedOttun/twotables.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohammedOttun/twotables/issues"
+  },
+  "homepage": "https://github.com/MohammedOttun/twotables#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1"
+  }
+}
